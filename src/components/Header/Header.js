@@ -27,6 +27,7 @@ function Header() {
 					<NavLink href="/men">Men</NavLink>
 					<NavLink href="/women">Women</NavLink>
 					<NavLink href="/kids">Kids</NavLink>
+					<NavLink href="/Collections">Collections</NavLink>
 				</DesktopNav>
 				<DesktopShoppingBagButton>
 					<Icon id="shopping-bag" />

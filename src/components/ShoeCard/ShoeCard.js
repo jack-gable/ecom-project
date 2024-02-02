@@ -78,7 +78,7 @@ const Image = styled.img`
 
 	@media (hover: hover) and (prefers-reduced-motion: no-preference) {
 		${Link}:hover &,
-    ${Link}:focus & {
+    	${Link}:focus & {
 			transform: scale(1.1);
 			transition: transform 200ms, filter 400ms;
 			filter: brightness(100%);

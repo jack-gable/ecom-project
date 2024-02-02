@@ -15,7 +15,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-feather": "^2.0.10",
-    "styled-components": "^6.1.8"
+    "styled-components": "^6.1.8",
+    "yet-another-react-lightbox": "^3.16.0"
   },
   "devDependencies": {
     "eslint": "^8",

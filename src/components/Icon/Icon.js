@@ -1,6 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { Search, Menu, ShoppingBag, ChevronDown, X } from "react-feather";
+import {
+	Search,
+	Menu,
+	ShoppingBag,
+	ChevronDown,
+	X,
+	Plus,
+	Minus,
+	ShoppingCart,
+} from "react-feather";
 
 const icons = {
 	search: Search,
@@ -8,6 +17,9 @@ const icons = {
 	"shopping-bag": ShoppingBag,
 	"chevron-down": ChevronDown,
 	close: X,
+	decrease: Minus,
+	increase: Plus,
+	"shopping-cart": ShoppingCart,
 };
 
 const Icon = ({ id, color, size, strokeWidth, ...delegated }) => {

@@ -2,11 +2,22 @@ const SHOES = [
 	{
 		slug: "tech-challenge",
 		name: "NikeCourt Tech Challenge 20",
-		imageSrc: "/tech-challenge.jpg",
+		imageSrc: [
+			"/tech-challenge-1.jpg",
+			"/tech-challenge-2.jpeg",
+			"/tech-challenge-3.jpeg",
+			"/tech-challenge-4.jpeg",
+		],
 		price: 16500,
 		salePrice: null,
 		releaseDate: Date.now() - 1000 * 60 * 60 * 1,
 		numOfColors: 2,
+		thumbnails: [
+			"/tech-challenge-1-thumbnail.jpg",
+			"/tech-challenge-2-thumbnail.jpeg",
+			"/tech-challenge-3-thumbnail.jpeg",
+			"/tech-challenge-4-thumbnail.jpeg",
+		],
 	},
 	{
 		slug: "metcon-5",
